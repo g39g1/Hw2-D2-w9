@@ -1,0 +1,16 @@
+{
+  "name": "hw-d2-w9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js", 
+  "scripts": {
+    "start": "node index.js" 
+  },
+  "type": "module",  
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

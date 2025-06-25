@@ -16,7 +16,7 @@ router.get('/hello-world.json', (req, res) => {
 });
 
 router.get('/hello-world.AlHilal', (req, res) => {
-   const Pathimg1 = 'C:/Users/Lenovo/Desktop/Hw-D2-W9/image.png'; 
+   const Pathimg1 = 'image.png'; 
    fs.readFile(Pathimg1, (err, img) => {  
         if (err) {
             res.status(500).send('Error reading image');
@@ -28,7 +28,7 @@ router.get('/hello-world.AlHilal', (req, res) => {
 });
 
 router.get('/hello-world.RealMadrid', (req, res) => {
-    const Pathimg2 = 'C:/Users/Lenovo/Desktop/Hw-D2-W9/image-copy.png';  
+    const Pathimg2 = 'image-copy.png';  
     fs.readFile(Pathimg2, (err, secondImg) => {  
         if (err) {
             res.status(500).send('Error reading image');
@@ -40,7 +40,7 @@ router.get('/hello-world.RealMadrid', (req, res) => {
 });
 
 router.get('/hello-world.InterMilan', (req, res) => {
-    const Pathimg3 = 'C:/Users/Lenovo/Desktop/Hw-D2-W9/image-enter.png';  
+    const Pathimg3 = 'image-enter.png';  
     fs.readFile(Pathimg3, (err, thirdimg) => {  
         if (err) {
             res.status(500).send('Error reading image');
